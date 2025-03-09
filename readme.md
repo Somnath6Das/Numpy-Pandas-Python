@@ -7,5 +7,7 @@ conda activate venv/
 pip install -r requirement.txt
 
 pip install --user ipykernel
+
 python -m ipykernel install --user --name global-python --display-name "Python (Global)"
+
 conda install -c anaconda ipykernel
