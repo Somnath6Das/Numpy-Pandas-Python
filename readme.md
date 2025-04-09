@@ -11,3 +11,12 @@ pip install --user ipykernel
 python -m ipykernel install --user --name global-python --display-name "Python (Global)"
 
 conda install -c anaconda ipykernel
+
+---
+
+python3 -m venv myenv
+source myenv/bin/activate
+
+pip install --upgrade pip
+pip install ipykernel
+pip install pandas
